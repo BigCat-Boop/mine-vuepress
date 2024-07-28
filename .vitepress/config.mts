@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "我自己的博客",
+  outDir: 'docs', //打包输出的目录 把打包的docs输出到外面 这个是固定写死的(打包生成工具也得写死)
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
