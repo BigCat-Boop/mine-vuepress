@@ -1,0 +1,14 @@
+.basic-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.basic-info div {
+  flex: 1;
+}
+
+.work-info {
+  display: flex;
+  justify-content: space-between;
+}
